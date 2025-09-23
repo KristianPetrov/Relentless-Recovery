@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import Image from "next/image";
+import Link from "next/link";
 import NavBar from "@/components/NavBar";
 import "./globals.css";
 
@@ -73,7 +74,7 @@ export default function RootLayout({
         {children}
         <footer className="border-t border-gray-200 mt-8">
           <div className="mx-auto max-w-6xl px-4 sm:px-6 py-6 flex items-center justify-center gap-3 text-sm text-gray-600">
-            <a
+            <Link
               href="https://www.setfreedigitaldisciples.com"
               target="_blank"
               rel="noopener noreferrer"
@@ -87,7 +88,7 @@ export default function RootLayout({
                 className="h-6 w-6 object-contain"
               />
               <span>Website designed by Set Free Digital Disciples</span>
-            </a>
+            </Link>
           </div>
         </footer>
       </body>
