@@ -2,102 +2,46 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="font-mono list-inside list-decimal text-sm/6 text-center sm:text-left">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] font-mono font-semibold px-1 py-0.5 rounded">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+    <main className="mx-auto max-w-6xl px-4 sm:px-6">
+      {/* Hero */}
+      <section id="hero" className="pt-12 sm:pt-16 pb-10 text-center">
+        <div className="flex justify-center">
+          <Image
+            src="/relentless-recovery-cross-logo.png"
+            alt="Relentless Recovery logo"
+            width={320}
+            height={320}
+            priority
+            className="h-auto w-[280px] sm:w-[340px] md:w-[420px] object-contain"
+          />
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+      </section>
+
+      {/* Vision */}
+      <section id="vision" className="py-12">
+        <div className="rounded-2xl bg-blue-800 border-2 border-white shadow-xl p-6 sm:p-8">
+          <h2 className="text-2xl sm:text-3xl font-semibold text-white">Vision Statement</h2>
+          <div className="mt-6 space-y-4 text-white/95 leading-relaxed">
+            <p>
+              Our vision is to create a world where every individual struggling with substance use has the opportunity to reclaim their life, reconnect with their loved ones, and rediscover a sense of purpose through faith, family, and community. We believe that no person is defined by their past choices, but rather by their willingness to seek help and embrace change. Every client deserves a pathway that recognizes their unique circumstances, challenges, and strengths. By providing careful assessments and ensuring placement with the appropriate level of care, we aim to remove the barriers-social, economic, or environmental-that too often stand in the way of recovery.
+            </p>
+            <p>
+              We see recovery not just as the absence of addiction, but as the restoration of dignity, hope, and meaningful relationships. Our vision is to help clients rebuild bonds with family, reconnect with God or their higher power, and step into a renewed sense of possibility. We strive to be a guiding light in the journey of healing, offering compassion, integrity, and direction so that every individual we serve can experience the freedom and fulfillment of a second chance at life.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* About / Mission */}
+      <section id="about" className="py-12">
+        <div className="rounded-2xl bg-blue-800 border-2 border-white shadow-xl p-6 sm:p-8">
+          <h2 className="text-2xl sm:text-3xl font-semibold text-white">About</h2>
+          <h3 className="mt-2 text-lg font-medium text-white">Mission Statement</h3>
+          <div className="mt-4 space-y-4 text-white/95 leading-relaxed">
+            <p>{`Our mission is to guide individuals seeking recovery by providing personalized assessments and connecting them with the right treatment programs for substance use and co-occurring mental health needs. We partner with trusted facilities in California and Nashville to ensure clients receive care from qualified clinical teams who understand the importance of addressing the whole person. By recognizing each client's unique path, we foster opportunities for healing, restoration, and spiritual growth. We are committed to helping clients reconnect with their families, rediscover their higher power, and embrace the second chance at life that recovery makes possible.`}</p>
+          </div>
+        </div>
+      </section>
+    </main>
   );
 }
