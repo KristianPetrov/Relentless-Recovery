@@ -9,10 +9,10 @@ export default function Home() {
           <Image
             src="/RelentlessRecoverylogo.png"
             alt="Relentless Recovery logo"
-            width={320}
-            height={320}
+            width={520}
+            height={520}
             priority
-            className="h-auto w-[280px] sm:w-[340px] md:w-[420px] object-contain"
+            className="h-auto w-[380px] sm:w-[440px] md:w-[520px] object-contain"
           />
         </div>
       </section>
@@ -41,8 +41,8 @@ export default function Home() {
             <Image
               src="/relentless-recovery-cross-logo.png"
               alt="Relentless Recovery cross logo"
-              width={180}
-              height={180}
+              width={280}
+              height={280}
               className="h-auto w-[120px] sm:w-[160px] md:w-[180px] object-contain"
             />
           </div>
