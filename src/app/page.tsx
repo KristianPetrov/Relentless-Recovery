@@ -52,9 +52,19 @@ export default function Home() {
               <p className="text-white/95 text-lg font-medium">Christopher Weeden</p>
               <p className="text-white/90">Founder & CEO</p>
             </div>
-            <div className="space-y-2 sm:text-right">
-              <a href="tel:7147185477" className="block text-white hover:underline underline-offset-4">(714) 718-5477</a>
-              <a href="mailto:relentlessrecoveryofoklahoma@gmail.com" className="block text-white hover:underline underline-offset-4">relentlessrecoveryofoklahoma@gmail.com</a>
+            <div className="space-y-3 sm:text-right">
+              <a href="tel:7147185477" className="inline-flex items-center gap-2 text-white hover:underline underline-offset-4">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="h-5 w-5">
+                  <path d="M2 5.75C2 4.784 2.784 4 3.75 4h2.02c.84 0 1.56.586 1.72 1.41l.57 2.86c.13.67-.19 1.35-.79 1.68l-1.15.64c.86 1.89 2.37 3.4 4.26 4.26l.64-1.15c.33-.6 1.01-.92 1.68-.79l2.86.57c.83.16 1.41.88 1.41 1.72v2.02c0 .966-.784 1.75-1.75 1.75H16c-7.18 0-13-5.82-13-13V5.75z"/>
+                </svg>
+                (714) 718-5477
+              </a>
+              <a href="mailto:relentlessrecoveryofoklahoma@gmail.com" className="inline-flex items-center gap-2 text-white hover:underline underline-offset-4">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="h-5 w-5">
+                  <path d="M2.25 6.75A2.25 2.25 0 0 1 4.5 4.5h15a2.25 2.25 0 0 1 2.25 2.25v10.5A2.25 2.25 0 0 1 19.5 19.5h-15a2.25 2.25 0 0 1-2.25-2.25V6.75zm2.4.75 7.35 4.41 7.35-4.41a.75.75 0 0 0-.6-1.35H5.25a.75.75 0 0 0-.6 1.35zm15.6 1.89-7.14 4.28a1.5 1.5 0 0 1-1.62 0L4.35 9.39v7.86c0 .414.336.75.75.75h13.8a.75.75 0 0 0 .75-.75V9.39z"/>
+                </svg>
+                relentlessrecoveryofoklahoma@gmail.com
+              </a>
             </div>
           </div>
         </div>
