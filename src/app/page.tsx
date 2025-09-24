@@ -37,15 +37,6 @@ export default function Home() {
         <div className="rounded-2xl bg-blue-800 border-2 border-white shadow-xl p-6 sm:p-8">
           <h2 className="text-2xl sm:text-3xl font-semibold text-white">About</h2>
           <h3 className="mt-2 text-lg font-medium text-white">Mission Statement</h3>
-          <div className="mt-4 flex justify-center">
-            <Image
-              src="/relentless-recovery-cross-logo.png"
-              alt="Relentless Recovery cross logo"
-              width={280}
-              height={280}
-              className="h-auto w-[120px] sm:w-[160px] md:w-[180px] object-contain"
-            />
-          </div>
           <div className="mt-4 space-y-4 text-white/95 leading-relaxed">
             <p>{`Our mission is to guide individuals seeking recovery by providing personalized assessments and connecting them with the right treatment programs for substance use and co-occurring mental health needs. We partner with trusted facilities in California and Nashville to ensure clients receive care from qualified clinical teams who understand the importance of addressing the whole person. By recognizing each client's unique path, we foster opportunities for healing, restoration, and spiritual growth. We are committed to helping clients reconnect with their families, rediscover their higher power, and embrace the second chance at life that recovery makes possible.`}</p>
           </div>
