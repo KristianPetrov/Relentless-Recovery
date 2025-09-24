@@ -42,6 +42,23 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Contact */}
+      <section id="contact" className="py-12">
+        <div className="rounded-2xl bg-blue-800 border-2 border-white shadow-xl p-6 sm:p-8">
+          <h2 className="text-2xl sm:text-3xl font-semibold text-white text-center">Contact</h2>
+          <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-6 items-center">
+            <div className="space-y-2">
+              <p className="text-white/95 text-lg font-medium">Christopher Weeden</p>
+              <p className="text-white/90">Founder & CEO</p>
+            </div>
+            <div className="space-y-2 sm:text-right">
+              <a href="tel:7147185477" className="block text-white hover:underline underline-offset-4">(714) 718-5477</a>
+              <a href="mailto:relentlessrecoveryofoklahoma@gmail.com" className="block text-white hover:underline underline-offset-4">relentlessrecoveryofoklahoma@gmail.com</a>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
   );
 }
